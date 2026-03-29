@@ -1,6 +1,6 @@
 # Graph Transformer-Based Integration of Multiplex Spatial Transcriptomics and Morphology for Tumor Microenvironment Analysis​
 
-This repository contains a complete pipeline for analyzing **spatial transcriptomics data** using **gene expression**, **morphological imaging features**, and **graph-based deep learning**. The workflow integrates multimodal data at the single-cell level to identify biologically meaningful cell populations and spatial tissue structure.
+This repository contains a complete pipeline for analyzing **spatial transcriptomics data** using **gene expression**, **morphological imaging features**, and an **attention-based graph neural network**. The workflow integrates multimodal data at the single-cell level to identify biologically meaningful cell populations and spatial tissue structure.
 
 ---
 
@@ -85,7 +85,7 @@ The primary dataset comes from the **Vizgen MERSCOPE FFPE Human Immuno-Oncology 
 
   * Single-cell transcript counts
   * Spatial coordinates and segmentation masks
-  * High-resolution DAPI and cell boundary images
+  * High-resolution DAPI images
 
 * Blank control probes (~50) are included in the panel and were removed during preprocessing.
 
