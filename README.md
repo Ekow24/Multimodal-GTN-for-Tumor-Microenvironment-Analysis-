@@ -66,3 +66,38 @@ project/
 * QC plots (violin, histogram, scatter)
 
 ---
+## Data Source
+
+The primary dataset comes from the **Vizgen MERSCOPE FFPE Human Immuno-Oncology Data Release:**
+
+🔗 [https://info.vizgen.com/ffpe-showcase?submissionGuid=c2b903c1-af36-4e0e-be04-08489f6aeb95](https://info.vizgen.com/ffpe-showcase?submissionGuid=c2b903c1-af36-4e0e-be04-08489f6aeb95)
+
+* Generated using the **MERSCOPE Platform®** with MERFISH spatial transcriptomics technology.
+
+* Includes multiple human tumor types measured using a **500-gene immuno-oncology panel**.
+
+* This project specifically uses **Ovarian Cancer – Patient 2, Slice 2**, containing:
+
+  * **71,381 cells**
+  * Spatially resolved gene expression and imaging data
+
+* Data includes:
+
+  * Single-cell transcript counts
+  * Spatial coordinates and segmentation masks
+  * High-resolution DAPI and cell boundary images
+
+* Blank control probes (~50) are included in the panel and were removed during preprocessing.
+
+* Imaging data (Z-stack TIFFs) used for CNN-based feature extraction is available at:
+  🔗 [https://console.cloud.google.com/storage/browser/vz-ffpe-showcase/HumanOvarianCancerPatient2Slice2/images](https://console.cloud.google.com/storage/browser/vz-ffpe-showcase/HumanOvarianCancerPatient2Slice2/images)
+
+* The dataset is part of a larger release containing:
+
+  * **16 samples across 8 cancer types**
+  * **~4 billion transcripts and ~8.7 million cells**
+
+To cite this data, please use:
+**Vizgen MERFISH FFPE Human Immuno-oncology Data Set, May 2022.**
+
+---
