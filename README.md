@@ -1,4 +1,4 @@
-# Graph Transformer-Based Integration of MultiplexSpatial Transcriptomics and Morphology for Tumor Microenvironment Analysis​
+# Graph Transformer-Based Integration of Multiplex Spatial Transcriptomics and Morphology for Tumor Microenvironment Analysis​
 
 This repository contains a complete pipeline for analyzing **spatial transcriptomics data** using **gene expression**, **morphological imaging features**, and **graph-based deep learning**. The workflow integrates multimodal data at the single-cell level to identify biologically meaningful cell populations and spatial tissue structure.
 
